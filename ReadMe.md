@@ -5,45 +5,31 @@ This repo is created to show subjects below:
 
 * **Python** file usage as a library in robot framework.
 * **Selenium** framework usage in robot framework.
-* **Serial**,**Telnet**,**SSH** connection examples for robot framework.
-* Can calculate **the time** it would take a browser
-  to download and **execute** your JS. Time is a much more accurate
-  and understandable metric compared to the size in bytes.
-* Calculations include **all dependencies and polyfills**
-  used in your JS.
+* **Serial**,**Telnet**,**SSH**,**TFTP** connection examples for robot framework.
+* You can check how it work part to execute robot framework.
 
 
-With **[Pyhton]** Size Limit will post bundle size changes as a comment
-in pull request discussion.
+With **[Pyhton]** you could run your robot code with robot command.
+
 
 [Pyhton]: https://www.python.org/
-
-## Who Uses 
-
-* [test]()
-* [teest]()
-
-
+[RobotFramework]: https://github.com/robotframework/robotframework/blob/master/INSTALL.rst
+[Selenium]: https://github.com/robotframework/SeleniumLibrary/
+[SSHLibrary]: https://pypi.org/project/robotframework-sshlibrary/
+[TFTPY]: https://pypi.org/project/tftpy/
 
 ## How It Works
 
-1. qweqweqewqe
-
-
+1. Install **[Pyhton]** to your pc.
+2. Use instalation guide for **[RobotFramework]** 
+3. For selenium use guide **[Selenium]**
+4. For SSH connection install **[SSHLibrary]**
+5. For TFTP install **[TFTPY]**
 
 ## Usage
+When every instalation is done you use command below for execution.
 
-### Robot
+ ```sh
+    $ robot --variable target:<target_name> /path_of_the_files
+ ```
 
-<details><summary><b>Show instructions</b></summary>
-
-1. Install the preset:
-
-    ```sh
-    $ robot install
-    ```
-
-</details>
-
-
-### Used Libraries
